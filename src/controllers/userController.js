@@ -1,4 +1,4 @@
-const User= require('../models/user');
+const User= require('../models/User');
 
 // update (promote or demote ) user role and status 
 const updateUser= async (req,res)=>{
