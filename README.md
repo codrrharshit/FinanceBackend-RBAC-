@@ -49,7 +49,7 @@ Each record contains:
 * Type (income / expense)
 * Category
 * Date
-* Notes
+* Notes/Description
 
 Supported operations:
 
@@ -61,8 +61,9 @@ Supported operations:
 Additional features:
 
 * Pagination support
-* Filtering (type, category)
+* Filtering (type, category,date)
 * Sorting (e.g., by date)
+* searching(notes,category)
 
 ---
 
@@ -146,7 +147,8 @@ Query support:
 * `?type=expense`
 * `?category=food`
 * `?sort=-date`
-
+* `?search=food`
+* `?startDate=2026-01-01&endDate=2026-03-01`
 ---
 
 ### Dashboard
